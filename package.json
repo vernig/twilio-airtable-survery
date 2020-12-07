@@ -1,0 +1,21 @@
+{
+  "name": "twilio-airtable-survey",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "twilio-run",
+    "deploy": "twilio-run deploy"
+  },
+  "dependencies": {
+    "airtable": "^0.10.1"
+  },
+  "devDependencies": {
+    "ora": "^5.1.0",
+    "twilio": "^3.52.0",
+    "twilio-run": "^2.6.0"
+  },
+  "engines": {
+    "node": "10"
+  }
+}
